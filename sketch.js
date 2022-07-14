@@ -2,6 +2,9 @@ var ship;
 var flowers = [];
 var drop;
 
+// https://github.com/processing/p5.js/wiki/p5.js-overview#why-cant-i-assign-variables-using-p5-functions-and-variables-before-setup
+new p5();
+
 function setup() {
     createCanvas(800, 600);
     ship = new Ship();
