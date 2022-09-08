@@ -1,9 +1,15 @@
 body {
+    position: relative;
     font-family: Arial, sans-serif;
+    font-size: 20pt;
+
+    margin: 0px;
 
     border-width: 0px;
-}
 
+    background-color: #46AFB8;
+    color: #ffffff;
+}
 
 a {
     color: #d0d0d0;
@@ -15,46 +21,37 @@ a:hover {
     text-decoration: underline;
 }
 
-div {
-    background-color: #46AFB8;
-    color: #ffffff;
-
-    margin: -10px;
-
-    padding: 20px;
-
-    width: calc(100% - 22px);
-}
-
 .navBar {
     background-color: #057190;
+    display: flex;
 
-    margin-bottom: 10px;
-
-    padding: 10px;
-    padding-bottom: 0px;
+    padding: 0px;
 
     border-radius: 0px;
-    width: calc(100% - 2px);
+    width: 100%;
+}
+
+.navBar a {
+    display: block;
+    padding: 10px;
 }
 
 .banner {
-    margin-top: -10px;
-    padding-top: 10px;  
+    padding: 20px;
+
+    background-color: #46AFB8;
 
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 
-.bottom {
-    margin-top: 6px;
-
-    height: 20px;
+.pug {
+    max-height: 800pt;
+    margin-bottom: -20px;
+    width: 100%;
 }
 
-.pug {
-    margin: -10px;
-    margin-top: 10px;
-
-    width: calc(50% + 300px);
+.whiteBackground {
+    background-color: #ffffff;
+    margin-bottom: 50px;
 }
